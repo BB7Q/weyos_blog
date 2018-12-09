@@ -11,9 +11,11 @@ tags:
 
 本文是`The Super Tiny Compiler`的翻译，可以通过本文学习如何实现一个编译器。
 本文并非严格按照字面直译，如有理解错误，还请指正。
-本篇主要时编译器具体实现。
+本篇主要是编译器具体实现。
 
-[原文地址](https://github.com/jamiebuilds/the-super-tiny-compiler)
+***[The Super Tiny Compiler（上）](/2018/12/09/ast-part1/)***
+
+**[原文地址](https://github.com/jamiebuilds/the-super-tiny-compiler)**
 
 ## 正文
 
@@ -739,3 +741,5 @@ module.exports = {
   compiler,
 };
 ```
+
+***[The Super Tiny Compiler（上）](/2018/12/09/ast-part1/)***

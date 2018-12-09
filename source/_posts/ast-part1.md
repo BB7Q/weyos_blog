@@ -11,9 +11,11 @@ tags:
 
 本文是`The Super Tiny Compiler`的翻译，可以通过本文学习如何实现一个编译器。
 本文并非严格按照字面直译，如有理解错误，还请指正。
-本篇内容时编译器基本知识介绍。
+本篇内容是编译器基本知识介绍。
 
-[原文地址](https://github.com/jamiebuilds/the-super-tiny-compiler)
+***[The Super Tiny Compiler（下）](/2018/12/09/ast-part2/)***
+
+**[原文地址](https://github.com/jamiebuilds/the-super-tiny-compiler)**
 
 ## 正文
 
@@ -247,3 +249,5 @@ Code generators work several different ways, some compilers will reuse the token
 编译器有许多不同的用途，它们可能需要比我详细介绍的更多的步骤。
 但是现在您应该对大多数编译器有了一个大致的高级概念。
 既然我已经解释了所有这些，那么就可以编写自己的编译器了，对吧?
+
+***[The Super Tiny Compiler（下）](/2018/12/09/ast-part2/)***
