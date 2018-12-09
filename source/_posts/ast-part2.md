@@ -9,13 +9,11 @@ tags:
 
 # The Super Tiny Compiler（下）
 
-本文是`The Super Tiny Compiler`的翻译，可以通过本文学习如何实现一个编译器。
+本文是[`The Super Tiny Compiler`](https://github.com/jamiebuilds/the-super-tiny-compiler)的翻译，可以通过本文学习如何实现一个编译器。
 本文并非严格按照字面直译，如有理解错误，还请指正。
 本篇主要是编译器具体实现。
 
 ***[The Super Tiny Compiler（上）](/2018/12/09/ast-part1/)***
-
-**[原文地址](https://github.com/jamiebuilds/the-super-tiny-compiler)**
 
 ## 正文
 
