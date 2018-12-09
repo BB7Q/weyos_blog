@@ -13,6 +13,8 @@ tags:
 本文并非严格按照字面直译，如有理解错误，还请指正。
 本篇主要时编译器具体实现。
 
+[原文地址](https://github.com/jamiebuilds/the-super-tiny-compiler)
+
 ## 正文
 
 翻译中...
