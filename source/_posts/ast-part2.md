@@ -30,11 +30,9 @@ tags:
  */
 
 /**
- * We're gonna start off with our first phase of parsing, lexical analysis, with
- * the tokenizer.
+ * 我们通过tokenizer开始第一阶段的解析，词法分析
  *
- * We're just going to take our string of code and break it down into an array
- * of tokens.
+ * 我们需要把这串代码分解成一个tokens数组。
  *
  *   (add 2 (subtract 4 2))   =>   [{ type: 'paren', value: '(' }, ...]
  */
@@ -43,40 +41,35 @@ tags:
 // things...
 function tokenizer(input) {
 
-  // A `current` variable for tracking our position in the code like a cursor.
+  // 通过`current`变量，标记光标在代码的具体位置
   let current = 0;
 
-  // And a `tokens` array for pushing our tokens to.
+  // 解析到的tokens将被push近`tokens`数组
   let tokens = [];
 
-  // We start by creating a `while` loop where we are setting up our `current`
-  // variable to be incremented as much as we want `inside` the loop.
+  // 创建一个while循环，在循环内部根据自己的期望来改变current变量值
   //
-  // We do this because we may want to increment `current` many times within a
-  // single loop because our tokens can be any length.
+  // 这么做是因为，我们有可能希望在一个循环中多次增加`current`，因为tokens可以是任意长度的
   while (current < input.length) {
 
-    // We're also going to store the `current` character in the `input`.
+    // 获取当前聚焦的字符
     let char = input[current];
 
-    // The first thing we want to check for is an open parenthesis. This will
-    // later be used for `CallExpression` but for now we only care about the
-    // character.
+    // 第一件事，我们想先检查括号，它会被用于可执行表达式中，但是现在先把他作为字符
     //
-    // We check to see if we have an open parenthesis:
+    // 检查是否有括号
     if (char === '(') {
 
-      // If we do, we push a new token with the type `paren` and set the value
-      // to an open parenthesis.
+      // 如果检查到了有括号，则push一个新的token，type为`paren`，value为括号本身
       tokens.push({
         type: 'paren',
         value: '(',
       });
 
-      // Then we increment `current`
+      // 然后增加`current`
       current++;
 
-      // And we `continue` onto the next cycle of the loop.
+      // 然后使用`continue`进入下一个循环周期
       continue;
     }
 
