@@ -2,7 +2,7 @@
 title: The Super Tiny Compiler（下）
 date: 2018-12-09
 categories:
-- 知识积累
+- 技术分享
 tags:
 - ast
 ---

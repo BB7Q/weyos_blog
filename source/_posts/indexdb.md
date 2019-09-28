@@ -2,7 +2,7 @@
 title: indexDB
 date: 2018-12-02
 categories:
-- 知识积累
+- 技术分享
 tags:
 - storage
 - indexDB
